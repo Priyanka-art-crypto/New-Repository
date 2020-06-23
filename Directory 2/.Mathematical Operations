@@ -1,18 +1,3 @@
-package CC150.MathematicsAndProbability;
-
-/**
- * Problem: Write method to implement the multiply, subtract and divide operation for integers. 
- * Use only the odd operator. 
- * 
- * Solution: 
- * subtract -- add a negate number
- * multiply -- add add add...
- * divide -- subtract subtract.
- * 
- * TestCase: negative number -- must take care negative situation doing this kind of problems.
- * @author jeffwan
- * @date Feb 26, 2014
- */
 public class Operation {
 
 	/** subtract **/
@@ -30,6 +15,11 @@ public class Operation {
 		return result;
 	}
 	
+	int a = 10;
+		int b = 20;
+		int c = a+b;
+		printf(c=%d,&c)
+		
 	/** multiply **/
 	public int multiply(int x, int y) {
 		if (x < y) {
